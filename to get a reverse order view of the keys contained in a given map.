@@ -1,0 +1,16 @@
+import java.util.*;
+class treemapp
+{
+    public static void main(String args[])
+    {
+       
+        TreeMap<Integer,String> student =new TreeMap<Integer,String> ();
+        student.put(3,"ram");
+         student.put(2,"shyam");
+          student.put(1,"samir");
+           student.put(4,"virat");
+            System.out.println("hashmap contains"+student);
+           System.out.println("Reverse order view of the keys: " +student.descendingKeySet());
+    }
+}
+
