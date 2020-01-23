@@ -1,0 +1,19 @@
+import java.util.*;
+class treemapp
+{
+    public static void main(String args[])
+    {
+        //creating TreeMap of <studentId(Integer), studentName(String)>
+        TreeMap<String,String> student =new TreeMap<String,String> ();
+        student.put("a1","ram");
+         student.put("a2","shyam");
+          student.put("a3","samir");
+           student.put("a4","virat");
+           
+ 
+        for(String str:student.keySet()){
+            System.out.println(str);
+    }
+}
+}
+
